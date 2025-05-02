@@ -1,31 +1,45 @@
 * {
-    padding: 0;
     margin: 0;
-}
-
-body {
-    font-family: "Arial", sans-serif;
+	padding: 0;
+	border: 0;
+    font-family: 'Arial', sans-serif;
 }
 
 h1 {font-size: 4rem;}
 
+/* Chrome, Safari, Edge */
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
 .timer {
-    background-color: #ddd;
+    background-color: #222;
+    color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     height: 100vh;
-    .timer__display{
+    .timer__display {
         font-size: 6rem;
         text-align: center;
     }
     .timer__display input {
-        width: 10rem;
+        background-color: transparent;
+        color: #fff;
+        width: 7rem;
         height: 8rem;
         font-size: 6rem;
         font-weight: bold;
         text-align: center;
+        border: none;
         border-radius: 5%;
         margin: 10px 0;
     }
