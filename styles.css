@@ -20,16 +20,20 @@ input[type=number] {
 }
 
 .timer {
-    background-color: #222;
+    background-color: #444;
     color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     height: 100vh;
+    .timer__title {
+        color: #222;
+    }
     .timer__display {
-        font-size: 6rem;
-        text-align: center;
+        font-size: 7rem;
+        display: flex;
+        flex-direction: row;
     }
     .timer__display input {
         background-color: transparent;
