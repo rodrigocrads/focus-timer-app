@@ -27,41 +27,47 @@ input[type=number] {
     align-items: center;
     flex-direction: column;
     height: 100vh;
-    .timer__title {
-        color: #fff;
-    }
-    .timer__display {
-        font-size: 7rem;
-        display: flex;
-        flex-direction: row;
-    }
-    .timer__display input {
-        background-color: transparent;
-        color: #fff;
-        width: 7rem;
-        height: 8rem;
-        font-size: 6rem;
-        font-weight: bold;
-        text-align: center;
-        border: none;
-        border-radius: 5%;
-        margin: 10px 0;
-    }
-    .timer__actions-button {
-        background-color: #fff;
-        width: 10rem;
-        height: 4rem;
-        font-size: 2rem;
-        border-radius: 5%;
-        margin: 10px 0;
-        cursor: pointer;
-    }
-    .timer__actions-button--success {
-        background-color: #4CAF50;
-        color: #fff;
-    }
-    .timer__actions-button--warnning {
-        color: #fff;
-        background-color: #f59e0b;
-    }
+}
+
+.timer__title {
+    color: #fff;
+}
+
+.timer__display {
+    font-size: 7rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.timer__display input {
+    background-color: transparent;
+    color: #fff;
+    width: 7rem;
+    height: 8rem;
+    font-size: 6rem;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    border-radius: 5%;
+    margin: 10px 0;
+}
+
+.timer__actions-button {
+    background-color: #fff;
+    width: 10rem;
+    height: 4rem;
+    font-size: 2rem;
+    border-radius: 5%;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.timer__actions-button--success {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+.timer__actions-button--warnning {
+    color: #fff;
+    background-color: #f59e0b;
 }
